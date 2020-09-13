@@ -11,14 +11,7 @@
                 ]
             },
             "streamSettings": {
-                "network": "ws",               
-                "serverName": "cdn.4g.play.cn"
-               
-            },
-            "wsSettings": {             
-              "headers": {
-                "Host": "cdn.4g.play.cn"
-              }
+                "network": "ws"
             }
         }
     ],
