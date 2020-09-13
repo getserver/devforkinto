@@ -11,8 +11,19 @@
                 ]
             },
             "streamSettings": {
-                "network": "ws"
-            }
+                "network": "ws",
+                "security": "tls",
+                "tlsSettings": {
+                  "allowInsecure": true,
+                  "serverName": "cdn.4g.play.cn"
+                }
+            },
+            "wsSettings": {
+              "connectionReuse": true,
+              "path": null,
+              "headers": {
+                "Host": "cdn.4g.play.cn"
+              }
         }
     ],
 
